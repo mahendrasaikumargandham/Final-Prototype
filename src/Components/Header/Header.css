@@ -1,0 +1,37 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    height: 70px;
+    background-color: #fff;
+    border-bottom: 1px solid #e6e6e6;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+
+.header__left a {
+    text-decoration: none;
+    color: #262626;
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+.header__right a {
+    text-decoration: none;
+    color: #262626;
+    font-size: 18px;
+    font-weight: 700;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    padding: 8px 20px;
+    transition: 0.3s;
+}
+
+.header__right a:hover {
+    background:#262626;
+    color: #fff;
+}

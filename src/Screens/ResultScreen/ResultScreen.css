@@ -1,0 +1,79 @@
+.resultScreen {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+
+.resultTranslated {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.resultScreen_top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.resultScreen_bottom {
+    width: 80%;
+}
+
+select {
+    width: 200px; 
+    padding: 10px; 
+    font-size: 16px; 
+    border: none;
+    outline: none; 
+    border-radius: 5px; 
+    background-color: #fff;
+    color: #333;
+}
+
+.resultOptions {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10%;
+    margin: 20px;
+}
+
+select::after {
+    content: '\25BC'; 
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    pointer-events: none; 
+  }
+  
+  select option {
+    padding: 10px; 
+    background-color: #fff; 
+    color: #333;
+  }
+  
+  select option:checked {
+    background-color: #007bff;
+    color: #fff; 
+  }
+
+  .translate_button {
+    width: 200px; 
+    padding: 10px; 
+    font-size: 16px; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    background-color: #262626;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  
+  
+  
+  
