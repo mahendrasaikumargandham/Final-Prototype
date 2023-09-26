@@ -8,13 +8,20 @@
 
 .loginScreen .login_home {
     position: absolute;
-    width: 10%;
+    /* width: 10%; */
+
     height: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
     top: 30px;
+    left: 3%;
+    font-family: 'Parisienne', cursive;
+    font-size: 30px;
+    text-decoration: none;
+    color: #0c002b;
+    font-weight: bolder;
 }
 
 .videoSource {
@@ -23,3 +30,4 @@
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
