@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Dancing+Script:wght@700&family=Parisienne&display=swap');
+
+
 .header {
     display: flex;
     justify-content: space-between;
@@ -15,9 +18,11 @@
 
 .header__left a {
     text-decoration: none;
-    color: #262626;
+    color: #0c002b;
     font-size: 2rem;
     font-weight: 800;
+    font-family: 'Parisienne', cursive;
+
 }
 
 .header__right a {

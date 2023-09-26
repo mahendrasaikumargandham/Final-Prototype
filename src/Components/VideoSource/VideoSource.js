@@ -6,7 +6,9 @@ import YouTubeIcon from "@mui/icons-material/YouTube";
 function VideoSource() {
   const navigate = useNavigate();
   const [selectedFile, setSelectedFile] = useState(null);
-  const [text, setText] = useState("");
+  const [text, setText] = useState(
+    "https://youtu.be/YD4mcC7-qoU?si=RGCyyxUfO2AhfBjR"
+  );
 
   const handleInputChange = (event) => {
     setText(event.target.value);
